@@ -5,9 +5,11 @@ My implementation of State Pattern (https://en.wikipedia.org/wiki/State_pattern)
 Example:
 
 ProcessContext  cntxt = new ProcessContext (caseItem);
+
 cntxt.Process();
 
 //update is always called outside of state machine
+
 update caseItem;
 
 
